@@ -10,4 +10,5 @@ h1 {
 
 .linha {
  display: flex;
+ flex-direction: column;
 }

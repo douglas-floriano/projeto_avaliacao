@@ -6,6 +6,7 @@ import Intervalo from './components/Intervalo'
 import Media from './components/Media'
 import Soma from './components/Soma'
 import Sorteio from './components/Sorteio'
+import Desafio from './components/Dasafio'
 
 function App() {
   // const [min, setMin] = useState(10)
@@ -19,6 +20,7 @@ function App() {
         {/* <Intervalo min={min} max={max} 
         onMinChanged={setMin} onMaxChanged={setMax}></Intervalo> */}
         <Intervalo ></Intervalo>
+        
       </div>
 
       <div className='linha'>
