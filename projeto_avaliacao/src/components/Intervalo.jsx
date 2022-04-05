@@ -9,17 +9,12 @@ import { alterarNumeroMaximo } from "../store/actions/numeros"
 function Intervalo(props) {
     const { min, max } = props
     return (
-        <Card title="Intervalo de Números" red>
+        <Card title="Escolha um número" blue>
             <div className="Intervalo">
                 <span>
-                    <span>Mínimo:</span>
+                    <span>Número:</span>
                     {/* <input type="number" value={min} onChange={e => props.onMinChanged(+e.target.value)} /> */}
                     <input type="number" value={min} onChange={e => props.alterarMinimo(+e.target.value)} />
-                </span>
-                <span>
-                    <span>Máximo:</span>
-                    {/* <input type="number" value={max} onChange={e => props.onMaxChanged(+e.target.value)} /> */}
-                    <input type="number" value={max} onChange={e => props.alterarMaximo(+e.target.value)} />
                 </span>
             </div>
         </Card>

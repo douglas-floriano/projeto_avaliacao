@@ -6,7 +6,7 @@ import { connect } from "react-redux"
 function Media(props){
     const {min, max} = props
     return (
-        <Card title="Média dos Números" green>
+        <Card title="DESAFIO REACT-REDUX" red>
             <div>
                 <span>
                     <span>Resultado: </span>
