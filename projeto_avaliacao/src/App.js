@@ -19,7 +19,7 @@ function App() {
       <div className='linha'>
         {/* <Intervalo min={min} max={max} 
         onMinChanged={setMin} onMaxChanged={setMax}></Intervalo> */}
-        <Intervalo ></Intervalo>
+        <Media ></Media>
         
       </div>
 
@@ -27,7 +27,7 @@ function App() {
         {/* <Media min={min} max={max}></Media>
         <Soma min={min} max={max}></Soma>
         <Sorteio min={min} max={max}></Sorteio> */}
-        <Media></Media>
+        <Intervalo></Intervalo>
         <Soma></Soma>
         <Sorteio></Sorteio> 
       </div>
