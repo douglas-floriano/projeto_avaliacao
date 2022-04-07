@@ -2,34 +2,38 @@
 import React from 'react';
 import './App.css';
 
-import Intervalo from './components/Intervalo'
-import Media from './components/Media'
-import Soma from './components/Soma'
+import Desafio from './components/Desafio'
+import Numero from './components/Numero'
+import Propriedades from './components/Propriedades'
 import Sorteio from './components/Sorteio'
-import Desafio from './components/Dasafio'
+import Recesso from './components/Recesso'
+
 
 function App() {
-  // const [min, setMin] = useState(10)
-  // const [max, setMax] = useState(100)
 
   return (
     <div className='App'>
-      <h1>Projeto-Redux</h1>
-      
+      <h1>PROJETO AVALIATIVO REACT-REDUX 1º BIMESTRE</h1>
+
       <div className='linha'>
-        {/* <Intervalo min={min} max={max} 
-        onMinChanged={setMin} onMaxChanged={setMax}></Intervalo> */}
-        <Media ></Media>
-        
+        <Desafio ></Desafio>
       </div>
 
       <div className='linha'>
-        {/* <Media min={min} max={max}></Media>
-        <Soma min={min} max={max}></Soma>
-        <Sorteio min={min} max={max}></Sorteio> */}
-        <Intervalo></Intervalo>
-        <Soma></Soma>
-        <Sorteio></Sorteio> 
+        <Numero></Numero>
+      </div>
+      <div className='linha'>
+        <Propriedades
+          titulo="QUAL SUA NOTA?"
+          aluno="Douglas Floriano Costa"
+          yellow
+        ></Propriedades>
+      </div>
+      <div className='linha'>
+        <Sorteio></Sorteio>
+      </div>
+      <div className='linha'>
+        <Recesso></Recesso>
       </div>
 
     </div>
