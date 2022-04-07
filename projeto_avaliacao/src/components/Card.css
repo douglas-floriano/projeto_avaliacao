@@ -21,14 +21,14 @@
 .Card.Red .Header { color: #FFF; background-color: #c62828;}
 .Card.Red .Content {background-color: #f44336;}
  
-.Card.Green .Header { color: #FFF; background-color: #2e7d32;}
-.Card.Green .Content {background-color: #4caf50;}
+.Card.Green .Header { color: #FFF; background-color: #1dcc26;}
+.Card.Green .Content {background-color: hsl(123, 84%, 17%);}
 
-.Card.Blue .Header { color: #FFF; background-color:#0b2849 ;}
+.Card.Blue .Header { color: #FFF; background-color:#023814 ;}
 .Card.Blue .Content {background-color: #1565c0;}
 
-.Card.Purple .Header { color: #FFF; background-color: #6A1B9A;}
-.Card.Purple .Content {background-color: #9c27b0;}
+.Card.Yellow .Header { color: #FFF; background-color: #a07bb8;}
+.Card.Yellow .Content {background-color: #d0d316;}
 
-.Card.Yellow .Header { color: #FFF; background-color: #a54ddb;}
-.Card.Yellow .Content {background-color: #bdc015;}
+.Card.Purple .Header { color: #FFF; background-color: #8a0853;}
+.Card.Purple .Content {background-color: #bb1a78;}
