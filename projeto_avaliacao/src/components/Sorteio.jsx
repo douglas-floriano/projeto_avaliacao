@@ -1,17 +1,20 @@
 import React from "react"
 import Card from "./Card"
 import { connect } from "react-redux"
-function Sorteio(props){
-    const {num} = props
-    const aleatorio = parseInt(Math.random() * num)
-    const texto_sorteio = "Sorteio de Números de 0 à " + num
-    
+
+
+
+function Sorteio(props) {
+    const { num } = props
+    const random = parseInt(Math.random() * num)
+    const titulo = "Sorteio de Números de 0 até " + num
+
     return (
-        <Card title={`${texto_sorteio}`} purple>
+        <Card title={`${titulo}`} purple>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <span>{aleatorio}</span>
+                    <span>{random}</span>
                 </span>
             </div>
         </Card>

@@ -3,30 +3,30 @@ import Card from "./Card"
 import "./Numero.css"
 
 import { connect } from "react-redux"
-import {alterarNumero} from "../store/action/numeros"
+import { alterarNumero } from "../store/action/numeros"
 
 function Numero(props) {
-    const {num} = props
-    return(
-        <Card title = "Escolha um Números" blue>
+    const { num } = props
+    return (
+        <Card title="Escolha um número" blue>
             <div className="Numero">
                 <span>
-                    <span>Escolha um número:</span>
+                    <span>Número: </span>
                     <input type="number" min="0" value={num}
-                    onChange={e => props.alterarNum(+e.target.value)}/>
+                        onChange={e => props.alterarNum(+e.target.value)} />
                 </span>
             </div>
         </Card>
     )
 }
 
-function mapDispatchToProps(dispatch){
-    return{
-        alterarNum(novoNumero){
+function mapDispatchToProps(dispatch) {
+    return {
+        alterarNum(novoNumero) {
             const action = alterarNumero(novoNumero)
             dispatch(action)
         }
-        
+
     }
 }
 
@@ -36,4 +36,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(Numero)
+export default connect(mapStateToProps, mapDispatchToProps)(Numero)

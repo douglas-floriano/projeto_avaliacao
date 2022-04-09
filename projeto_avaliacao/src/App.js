@@ -22,6 +22,7 @@ function App() {
       <div className='linha'>
         <Numero></Numero>
       </div>
+
       <div className='linha'>
         <Propriedades
           titulo="QUAL SUA NOTA?"
@@ -29,9 +30,11 @@ function App() {
           yellow
         ></Propriedades>
       </div>
+
       <div className='linha'>
         <Sorteio></Sorteio>
       </div>
+
       <div className='linha'>
         <Recesso></Recesso>
       </div>
